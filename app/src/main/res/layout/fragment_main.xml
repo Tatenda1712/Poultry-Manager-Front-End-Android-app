@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poutry"
+    tools:context=".MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/inventory"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="#FF9800"
+                    android:drawableTop="@drawable/inventory"
+                    android:text="Inventory"
+                    android:textSize="6.5pt" />
+
+                <Button
+                    android:id="@+id/transactions"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_toRightOf="@+id/inventory"
+                    android:backgroundTint="#FF9800"
+                    android:drawableTop="@drawable/trans"
+                    android:text="Transactions"
+                    android:textSize="6.5pt" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/health"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="#FF9800"
+                    android:drawableTop="@drawable/health"
+                    android:text="Health"
+                    android:textSize="6.5pt" />
+
+                <Button
+                    android:id="@+id/feeding"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_toRightOf="@+id/health"
+                    android:backgroundTint="#FF9800"
+                    android:drawableTop="@drawable/feeding"
+                    android:text="Feeding"
+                    android:textSize="6.5pt" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#FF0000"
+            android:text="log out" />
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:padding="20dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17/12/12"
+                android:id="@+id/newdate"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:textSize="12pt"/>
+
+            <TextView
+                android:id="@+id/batchname"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Flock"
+                android:textColor="@color/white"
+                android:textSize="12pt" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balance"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:textSize="12pt"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1000"
+                android:id="@+id/amount"
+                android:textColor="#027507"
+                android:textSize="12pt"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Purpose"
+                android:textColor="@color/white"
+                android:layout_weight="1"
+                android:textSize="12pt"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="meat"
+                android:id="@+id/purpose"
+                android:textColor="#027507"
+                android:textSize="12pt"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

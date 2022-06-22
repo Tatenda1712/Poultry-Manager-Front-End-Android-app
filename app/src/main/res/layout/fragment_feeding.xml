@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feeds Calculator"
+            android:textAlignment="center"
+            android:textColor="#009688"
+            android:layout_marginTop="15dp"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="12pt"/>
+            <EditText
+                android:layout_width="250dp"
+                android:layout_marginTop="20dp"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:hint="Enter number of birds"
+                android:id="@+id/birdsnumber"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/justtext"
+                android:textColor="#009688"
+                android:text="You need "/>
+
+            <TextView
+                android:id="@+id/kgamount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/justtext"
+                android:text="--"
+                android:textColor="#F44336" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="of starter and"
+                android:textColor="#009688"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/kgamount"
+                android:id="@+id/of"/>
+
+            <TextView
+                android:id="@+id/kgamount2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/of"
+                android:text="--"
+                android:textColor="#F44336" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="of grower and"
+                android:textColor="#009688"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/kgamount2"
+                android:id="@+id/of2"/>
+            <TextView
+                android:id="@+id/kgamount3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/justtext"
+                android:text="--"
+                android:textColor="#F44336" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="of finisher"
+                android:textColor="#009688"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@+id/justtext"
+                android:layout_toRightOf="@id/kgamount3"
+                android:id="@+id/of3"/>
+
+        </RelativeLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:id="@+id/submit"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#009688"/>
+
+    </LinearLayout>
+
+</FrameLayout>

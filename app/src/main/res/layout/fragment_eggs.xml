@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EggsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/eggsfragment">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="#FF5722"
+            android:layout_height="70dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Inventory"
+                android:id="@+id/addeggs"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View Inventory"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/addeggs"
+                android:id="@+id/vieweggs"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>

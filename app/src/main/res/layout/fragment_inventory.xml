@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poutry"
+    tools:context=".InventoryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/flock"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="#FF9800"
+                    android:drawableTop="@drawable/flock"
+                    android:text="Flock"
+                    android:textSize="6.5pt" />
+
+                <Button
+                    android:id="@+id/eggs"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_toRightOf="@+id/flock"
+                    android:backgroundTint="#FF9800"
+                    android:drawableTop="@drawable/eggs"
+                    android:text="Eggs"
+                    android:textSize="6.5pt" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/feeds"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="#FF9800"
+                    android:drawableTop="@drawable/feed"
+                    android:text="Feeds"
+                    android:textSize="6.5pt" />
+                <ImageButton
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:backgroundTint="#FF0000"
+                    android:layout_toRightOf="@+id/feeds"
+                    android:id="@+id/back"
+                    android:src="@drawable/back"
+                    android:text="back" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

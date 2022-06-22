@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vaccination in Poultry"
+        android:textSize="12pt"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vaccinition"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mass Vaccination Techniques"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In most countries, policy in public health medicine is to establish herd immunity to several diseases. Some individuals may be not eligible for the vaccine (for example, those with a compromised immune system)."
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vaccine Types Avilable"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="->Intraocular (Eye Drop) or Nasal Instillation."
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="->Beak Dipping Method"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="->Subcutaneous Injection Method"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="->Intramuscular Injection Method"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="->Drinking Water Vaccination"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="->Vaccination by Dosing Pump"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="->Spray Vaccination"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vaccine Production"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Vaccines are sold in dose lots, the number of doses being the number of fowls that may be vaccinated with that amount of vaccine when using the recommended technique. In the case of many vaccines, there are differences in the disease organism strains that they are effective against. It is important that the correct vaccine strain be used and this can only be determined by veterinary advice"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vaccination Procedures"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="There are a number of ways that vaccines may be administered to poultry and it is very important that the correct method is used for each vaccine. To use the wrong method will often result in failure of the vaccine to produce the desired immunity. Some of the methods require the operator to handle every bird and, consequently are time consuming and stressful to the birds and operator. Other methods involve administration by methods much less stressful and time consuming. These methods include administration via the drinking water or as an aerosol spray. The different ways that the vaccines may be administered to poultry are below."
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Monitoring"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:text="In the case of some vaccines, an important part of the procedure is to ascertain whether the vaccine has worked, or “taken”. A good example of this is fowl pox vaccine, which is administered by wing stab. Within 7 to 10 days after vaccination, a “take” should appear at the vaccination site. This is in the form of a small pimple one half to one centimetre in diameter. If the take is larger and has a cheesy core, it indicates that contaminants have been introduced either with the vaccine or with dirty vaccinating equipment. A check for takes would involve inspecting approximately 100 birds for every 10,000 vaccinated."
+        android:textColor="@color/black"/>
+</LinearLayout>
+
+</ScrollView>

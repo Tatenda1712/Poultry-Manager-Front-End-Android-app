@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/poutry"
+    tools:context=".TransactionsFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/transactionfragment">
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="#FF5722"
+            android:layout_height="70dp">
+
+            <Button
+                android:id="@+id/addtransaction"
+                android:textSize="5pt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Transaction" />
+
+            <Button
+                android:id="@+id/viewtransaction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/addtransaction"
+                android:text="View Transaction"
+                android:textSize="5pt" />
+        </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>
